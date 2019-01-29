@@ -235,6 +235,8 @@ span{
   justify-content: space-around;
   width: 96%;
   margin-top: 50px;
+  position: relative;
+  top: 50px;
   height: 750px;
 }
 
