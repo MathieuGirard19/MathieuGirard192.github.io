@@ -331,8 +331,8 @@ span{
 
 .contactFooter{
   display: flex;
+  align-items: flex-end;
   justify-content: space-around;
-  align-items:flex-end;
   background-color: black;
   margin-top: 50px;
   width: 100%;
