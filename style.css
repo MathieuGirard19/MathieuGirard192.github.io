@@ -140,3 +140,14 @@ i:hover{
 .Project3:hover > img{
   filter: brightness(0%);
 }
+
+.contact {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background-color: black;
+  color: white;
+  flex-wrap: wrap;
+}
