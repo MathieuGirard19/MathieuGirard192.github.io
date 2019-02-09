@@ -29,9 +29,9 @@
           </div>
           <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="#"><span class="glyphicon glyphicon-download"></span> Resume</a></li>
-              <li><a href="#"><span class="glyphicon glyphicon-question-sign"></span> About</a></li>
-              <li><a href="#"><span class="glyphicon glyphicon-pencil"></span> Projects</a></li>
+              <li><a href="resources/Resume-2019.pdf" download=Resume-2019><span class="glyphicon glyphicon-download"></span> Resume</a></li>
+              <li><a href="#about"><span class="glyphicon glyphicon-question-sign"></span> About</a></li>
+              <li><a href="#projects"><span class="glyphicon glyphicon-pencil"></span> Projects</a></li>
               <li><a href="#"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
             </ul>
           </div>
@@ -59,7 +59,7 @@
           </div>
 
           <div class="item">
-            <img src="resources\images\teamwork.jpg" style="width:100%;">
+            <img src="resources\images\teamwork.jpg" style="width:100%; filter: grayscale(100%);">
             <div class="carousel-caption">
               <h2>Thrive in a Team</h2>
               <h4>"Individual commitment to a group effort--that is what makes a team
@@ -99,6 +99,7 @@
         </a>
       </div>
 
+      <a name="about"></a>
       <div class="about">
         <div class="aboutTitle" style="text-align: center">
           <h2 style="font-size: 40px;">About me</h2>
@@ -130,9 +131,10 @@
             <div class="col-lg-2 col-md-1 col-sm-0 col-xs-0">
             </div>
           </div>
+        </div>
       </div>
-    </div>
 
+      <a name="projects"></a>
       <div class="Projects">
         <div class="ProjectsTitle">
           <h2 style="font-size: 40px;">Projects</h2>
@@ -161,26 +163,30 @@
               <i class="itravel fab fa-github fa-3x"></i>
             </div>
             <div class="Project2 col-lg-3 col-md-4 col-sm-6 col-xs-12">
-              <img class="img-fluid" src="resources/images/website.jpeg" alt="">
-              <div class="caption">
-                <h1>MathieuGirard.me</h1>
-                <p>The website you are currently viewing! Orginal design stylized using a
-                  combination of boostrap grid and flexbox in HTML/CSS. Launched website
-                  using Github pages and Google Domains.
-                </p>
-              </div>
-              <i class="web fab fa-github fa-3x"></i>
+              <a class=Project2 href="https://github.com/MathieuGirard19/MathieuGirard19.github.io" target="_blank">
+                <img class="img-fluid" src="resources/images/website.jpeg" alt="">
+                <div class="caption">
+                  <h1>MathieuGirard.me</h1>
+                  <p>The website you are currently viewing! Orginal design stylized using a
+                    combination of boostrap grid and flexbox in HTML/CSS. Launched website
+                    using Github pages and Google Domains.
+                  </p>
+                </div>
+                <i class="web fab fa-github fa-3x"></i>
+              </a>
             </div>
-            <div class="Project3 col-lg-3 col-md-4 col-sm-6 col-xs-12">
-              <img class="img-fluid" src="resources/images/demo.jpg" alt="">
-              <div class="caption">
-                <h1>Bitmap Imaging</h1>
-                <p>Program developed in C++ that takes command line arguments to
-                  produce a bitmap image. The program utilized classes and containers
-                  while testing principles of polymorphism.
-                </p>
-              </div>
-              <i class="bit fab fa-github fa-3x"></i>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+              <a class=Project3 href="https://github.com/MathieuGirard19/bitmapImaging" target="_blank">
+                <img class="img-fluid" src="resources/images/demo.jpg" alt="">
+                  <div class="caption">
+                    <h1>Bitmap Imaging</h1>
+                    <p>Program developed in C++ that takes command line arguments to
+                      produce a bitmap image. The program utilized classes and containers
+                      while testing principles of polymorphism.
+                    </p>
+                  </div>
+                <i class="bit fab fa-github fa-3x"></i>
+              </a>
             </div>
           </div>
         </div>
