@@ -6,6 +6,9 @@
   .item > p{
     font-size: 3.5vw;
   }
+  .row{
+    margin-top: 0px;
+  }
 }
 
 .about p{
@@ -113,31 +116,11 @@ i:hover{
 }
 
 
-.Project1:hover > .caption{
+.ProjectDisplay:hover > .caption{
   display: block;
 }
 
-.Project1:hover > img{
-  filter: brightness(0%);
-}
-
-.Project1:hover > i{
-  display:
-}
-
-.Project2:hover > .caption{
-  display: block;
-}
-
-.Project2:hover > img{
-  filter: brightness(0%);
-}
-
-.Project3:hover > .caption{
-  display: block;
-}
-
-.Project3:hover > img{
+.ProjectDisplay:hover > img{
   filter: brightness(0%);
 }
 
@@ -150,4 +133,8 @@ i:hover{
   background-color: black;
   color: white;
   flex-wrap: wrap;
+}
+
+.col-lg-3, .col-md-4, .col-sm-6, .col-xs-12{
+  padding: 0;
 }
